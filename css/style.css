@@ -1,0 +1,116 @@
+body {
+  overflow: hidden;
+  margin: 0;
+}
+#canvas {
+  position: absolute;
+  overflow: hidden;
+  background: rgb(53, 214, 237);
+  background: linear-gradient(
+    180deg,
+    rgba(53, 214, 237, 1) 0%,
+    rgba(201, 246, 255, 1) 100%
+  );
+}
+#pesawat {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 409px;
+  height: 123px;
+  z-index: 5;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 116px;
+  height: 70px;
+}
+.cloud2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 235px;
+  height: 91px;
+}
+.cloud3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 215px;
+  height: 64px;
+}
+.cloud4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 137px;
+  height: 63px;
+}
+.cloud5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90px;
+  height: 60px;
+}
+.cloud6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 409px;
+  height: 75px;
+}
+.cloud7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 279px;
+  height: 76px;
+}
+.cloud8 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 524px;
+  height: 59px;
+}
+.cloud9 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 130px;
+  height: 86px;
+}
+.cloud10 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 109px;
+}
+
+#orang-naik {
+  opacity: 1;
+  position: relative;
+  bottom: 55px;
+  right: 50px;
+  left: 80px;
+  width: 172;
+  height: 70;
+  transform: scale(0.3, 0.3);
+  z-index: 5;
+}
+#orang-lompat {
+  opacity: 0;
+  position: relative;
+  bottom: 150px;
+  right: 50px;
+  left: 80px;
+  width: 140;
+  height: 222;
+  transform: scale(0.3, 0.3);
+}
+
